@@ -4,10 +4,10 @@ public class SingletonBillPugh {
 	private SingletonBillPugh(){}
 
 	private static class SingletonBill {
-		private static final SingletonBill single = new SingletonBill();
+		private static final SingletonBillPugh single = new SingletonBillPugh();
 	}
 
-	public static SingletonBill getInstance() {
+	public static SingletonBillPugh getInstance() {
 		return SingletonBill.single;
 	}
 }
