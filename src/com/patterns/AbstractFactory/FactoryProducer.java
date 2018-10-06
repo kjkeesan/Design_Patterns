@@ -7,7 +7,7 @@ public class FactoryProducer {
 	         return new ShapeFactory();
 	         
 	      }else if(choice.equalsIgnoreCase("COLOR")){
-	         return new ColorFactory();
+	        // return new ColorFactory();
 	      }
 	      
 	      return null;
